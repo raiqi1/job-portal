@@ -67,6 +67,8 @@ const Signup = () => {
             navigate("/");
         }
     },[])
+
+    console.log("input", input);
     return (
         <div>
             <Navbar />
